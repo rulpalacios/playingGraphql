@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: <%= Faker::JapaneseMedia::DragonBall.character %>
+  race: <%= Faker::JapaneseMedia::DragonBall.race %>
+  power_level: <%= Faker::Number.between(from: 1, to: 10000) %>
+  universe: one
+
+two:
+  name: <%= Faker::JapaneseMedia::DragonBall.character %>
+  race: <%= Faker::JapaneseMedia::DragonBall.race %>
+  power_level: <%= Faker::Number.between(from: 1, to: 10000) %>
+  universe: two
